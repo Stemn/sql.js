@@ -1,7 +1,14 @@
 {
-  "name": "sql.js",
-  "version": "0.3.2",
+  "bugs": {
+    "email": "pere.jobs@gmail.com",
+    "url": "https://github.com/kripken/sql.js/issues"
+  },
   "description": "SQLite library with support for opening and writing databases, prepared statements, and more. This SQLite library is in pure javascript (compiled with emscripten).",
+  "devDependencies": {
+    "test": ">=0.6",
+    "workerjs": ">=0.1"
+  },
+  "homepage": "http://github.com/kripken/sql.js",
   "keywords": [
     "sql",
     "sqlite",
@@ -18,23 +25,13 @@
   ],
   "license": "MIT",
   "main": "./js/sql.js",
-  "scripts": {
-    "test": "node test/all.js"
-  },
-  "homepage": "http://github.com/kripken/sql.js",
+  "name": "sql.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/kripken/sql.js.git"
   },
-  "bugs": {
-    "url": "https://github.com/kripken/sql.js/issues",
-    "email": "pere.jobs@gmail.com"
+  "scripts": {
+    "test": "node test/all.js"
   },
-  "devDependencies": {
-    "workerjs": ">=0.1",
-    "test": ">=0.6"
-  },
-  "_resolved": "",
-  "_integrity": "sha512-eG0MsA6WVvr9XES00LBDiQD/YbpIqwu6Rpwdt9Pl+hemRL+KrRhgIDn3HaafYYT25J0KBBEKeBz+DoHaIkIhxw==",
-  "_from": "sql.js@https://github.com/Stemn/sql.js/tarball/master"
+  "version": "0.3.2"
 }
